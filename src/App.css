@@ -1,0 +1,54 @@
+/* App.css */
+.calculator {
+  width: 320px; /* Ajuste a largura como desejar */
+  margin: 40px auto;
+  background-color: #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.display {
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  text-align: right;
+  border-radius: 5px 5px 0 0; /* Arredondamento superior */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 70px;
+  height: 50px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #bbb;
+}
+
+.operator {
+  background-color: #f2f2f2;
+}
+
+.equal {
+  background-color: #66cc66; /* Cor verde para o botão "=" */
+  width: 140px; /* Largura maior para o botão "=" */
+}
+
+.clear {
+  background-color: #ffcccc; /* Cor vermelha para o botão "C" */
+}
